@@ -27,3 +27,6 @@
 
 5. Blob Container
 <https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal>
+
+6. youtube video reference
+<https://youtu.be/-ImscAXAZj0>
