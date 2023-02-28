@@ -5,10 +5,10 @@ from azure.eventhub.extensions.checkpointstoreblobaio import (
     BlobCheckpointStore,
 )
 
-BLOB_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=storageaccountduck1;AccountKey=bCrDgSI9Ra5qhREn3Ko5E3wKhVI7gVLwX8Pdn6WziQ7fimjIi9RKnxROGzE34Lkj1+x+Pn+faWXZ+ASt60+8cQ==;EndpointSuffix=core.windows.net"
-BLOB_CONTAINER_NAME = "blobcontainerduck"
-EVENT_HUB_CONNECTION_STR = "Endpoint=sb://eventhubnamesapce.servicebus.windows.net/;SharedAccessKeyName=RootUserAccessPolicy;SharedAccessKey=gsoJ6AK8nnbcAhzjHNR//uFMNzs+b6RtV5oFz8StJF0=;EntityPath=eventhubduck"
-EVENT_HUB_NAME = "eventhubduck"
+BLOB_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=knoldusstorage;AccountKey=5momS1nQNQ57YZR9povJ4B+YM/NucLRNI9fASicqwKimKZLEP4hW6qgah2nnmZTAIj4i5b+cKvdA+AStHEclsg==;EndpointSuffix=core.windows.net"
+BLOB_CONTAINER_NAME = "knoldusblob"
+EVENT_HUB_CONNECTION_STR = "Endpoint=sb://knolduseventhub.servicebus.windows.net/;SharedAccessKeyName=RootPolicyAccess;SharedAccessKey=qq54G24WIEzmupDsKSEHE4cDoDUmqpLzjR6uRqH5uDA=;EntityPath=knoldusevent"
+EVENT_HUB_NAME = "knoldusevent"
 
 async def on_event(partition_context, event):
     # Print the event data.
